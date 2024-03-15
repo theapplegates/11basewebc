@@ -7,9 +7,23 @@ let place = "earth";
 
 <p><a href="page.webc">Another page</a>.</p>
 
-<img width="400,800" sizes="100vw" src="https://images.unsplash.com/photo-1627224286457-923944e5b159?auto=format&fit=crop&w=387&q=80" alt="hi2">
+<unpic-img
+	webc:import="npm:@unpic/webc"
+	src="https://cdn.shopify.com/static/sample-images/bath_grande_crop_center.jpeg"
+	layout="constrained"
+	width="800"
+	height="600"
+	alt="A lovely bath"
+></unpic-img>
 
-<img width="400,800" sizes="100vw" src="./img/yellow-flower.jpg" alt="hi2">
+<unpic-img
+	webc:import="npm:@unpic/webc"
+	src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1709828785/vieste_italy_fzd6ap.jpg"
+	layout="constrained"
+	width="800"
+	height="600"
+	alt="A beautiful Italian city on the beach"
+></unpic-img>
 
 <!--- is-land: https://www.11ty.dev/docs/plugins/partial-hydration/ --->
 <!---

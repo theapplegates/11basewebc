@@ -36,6 +36,7 @@
 	},
 	"dependencies": {
 		"@11ty/eleventy-img": "^4.0.2",
-		"@11ty/is-land": "^4.0.0"
+		"@11ty/is-land": "^4.0.0",
+		"@unpic/webc": "^0.0.41"
 	}
 }
