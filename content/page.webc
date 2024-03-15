@@ -5,9 +5,9 @@ function permalink(data) {
 ---
 <p>This is another page.</p>
 
-<img width="400,800" sizes="90vw" src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1710444753/rrplm7di8wlf184kpch5.jpg" alt="hi2">
+<img width="400,800" sizes="100vw" src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1710444753/rrplm7di8wlf184kpch5.jpg" alt="hi2">
 
-<img width="400,800" sizes="90vw" src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1709828785/vieste_italy_fzd6ap.jpg" alt="hi2">
+<img width="400,800" sizes="100vw" src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1709828785/vieste_italy_fzd6ap.jpg" alt="hi2">
 
 <hello-component place="world"></hello-component>
 
