@@ -5,15 +5,9 @@ function permalink(data) {
 ---
 <p>This is another page.</p>
 
-<img
-		webc:is="eleventy-image"
-		width="400,800"
-		sizes="90vw"
-		src="~/Documents/eleventy-base-webc/content/img/yellow-flower.jpg"
-		formats="avif,webp,jpeg"
-		alt="A photo of a small blue and white tugboat next to a very large shipping container ship full of multi-colored shipping containers."
-/>
-<img src="https://images.unsplash.com/photo-1627224286457-923944e5b159?auto=format&fit=crop&w=387&q=80" alt="hi2">
+<img width="400,800" sizes="90vw" src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1710444753/rrplm7di8wlf184kpch5.jpg" alt="hi2">
+
+<img width="400,800" sizes="90vw" src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1709828785/vieste_italy_fzd6ap.jpg" alt="hi2">
 
 <hello-component place="world"></hello-component>
 
