@@ -1,0 +1,26 @@
+---node
+// Initialize page data in JavaScript front matter
+let place = "earth";
+---
+<hello-component place="world"></hello-component>
+<hello-component :place="place"></hello-component>
+
+<p><a href="page.webc">Another page</a>.</p>
+
+<img
+		webc:is="eleventy-image"
+		width="400,800"
+		sizes="90vw"
+		src="~/Documents/eleventy-base-webc/content/img/yellow-flower.jpg"
+		formats="avif,webp,jpeg"
+		alt="A photo of a small blue and white tugboat next to a very large shipping container ship full of multi-colored shipping containers."
+/>
+
+<img src="https://images.unsplash.com/photo-1627224286457-923944e5b159?auto=format&fit=crop&w=387&q=80" alt="hi">
+
+<!--- is-land: https://www.11ty.dev/docs/plugins/partial-hydration/ --->
+<!---
+	<is-land on:visible>
+		This is an island.
+	</is-land>
+--->
