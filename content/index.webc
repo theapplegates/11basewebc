@@ -20,8 +20,8 @@ let place = "earth";
 	webc:import="npm:@unpic/webc"
 	src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1709828785/vieste_italy_fzd6ap.jpg"
 	layout="constrained"
-	width="800"
-	height="600"
+	width="7952"
+	height="5304"
 	alt="A beautiful Italian city on the beach"
 ></unpic-img>
 

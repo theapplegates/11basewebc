@@ -4,6 +4,7 @@ import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 /** @param {import('@11ty/eleventy').UserConfig} eleventyConfig */
 export default function(eleventyConfig) {
+
 	eleventyConfig.ignores.add("README.md");
 
 	eleventyConfig.addPlugin(pluginWebc, {
@@ -14,6 +15,7 @@ export default function(eleventyConfig) {
 	});
 
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
+
 
 
 	eleventyConfig.setServerOptions({
